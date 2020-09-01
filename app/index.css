@@ -4,11 +4,11 @@ body,
   margin: 0;
   height: 100%;
   width: 100%;
-  background: whitesmoke;
 }
 
 body {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans,
+    Ubuntu, Cantarell, Helvetica Neue, sans-serif;
 }
 
 ul {
@@ -91,7 +91,7 @@ li {
 }
 
 .link {
-  color: red;
+  color: rgb(187, 46, 31);
   text-decoration: none;
   font-weight: bold;
 }
@@ -117,7 +117,7 @@ li {
 }
 
 .bg-light {
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.08);
   border-radius: 3px;
 }
 
@@ -215,13 +215,15 @@ li {
 }
 
 .dark-btn {
-  color: #ececec;
+  color: #e6e6e6;
   background: #141414;
+  cursor: pointer;
 }
 
 .dark-btn:disabled {
   background: #f2f2f2;
   color: #c7c7c7;
+  cursor: pointer;
 }
 
 .players-container {
@@ -248,10 +250,11 @@ li {
 
 .btn-space {
   margin: 40px auto;
+  cursor: pointer;
 }
 
 .error {
-  color: red;
+  color: #ff1616;
   font-size: 20px;
   margin: 50px 0;
 }
@@ -269,9 +272,11 @@ li {
 .light-btn {
   color: #000;
   background: #aaa8a8;
+  cursor: pointer;
 }
 
 .light-btn:disabled {
   background: #292929;
   color: #4a4a4a;
+  cursor: pointer;
 }
